@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, 'admin/layouts/base_site.html')
+    return render(request, 'admin/pages/index.html')
