@@ -1,0 +1,31 @@
+{% extends "admin/layouts/base.html" %}
+
+{% block title %}Admin Dashboard{% endblock title %}
+
+
+ <!-- Navbar -->
+ {% block navbar %}
+    {% include "admin/layouts/navbar.html" %}
+ {% endblock navbar %}
+ <!-- /.navbar -->
+
+
+ <!-- Main Sidebar Container -->
+ {% block asidebar %}
+    {% include "admin/layouts/aside.html" %}
+ {% endblock asidebar %}
+ <!-- /. Main Sidebar Container -->
+
+
+ <!-- Content Header (Page header) -->
+ {% block content_header %}
+    {% include "admin/layouts/content_header.html" %}
+ {% endblock content_header %}
+ <!-- /.content-header -->
+
+
+ <!-- footer -->
+{% block footer %}
+    {% include "admin/layouts/footer.html" %}
+{% endblock footer %}
+ <!-- ./ footer -->
